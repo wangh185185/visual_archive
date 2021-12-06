@@ -1,0 +1,79 @@
+body {
+  color: rgb(0, 0, 0);
+}
+
+#head {
+  text-align: center;
+  padding: auto;
+  padding-top: 10%;
+  margin: 5%;
+}
+
+#description {
+  text-align: center;
+  padding: 5%;
+  margin: 5%;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(255, 255, 255);
+  background-color: transparent;
+}
+
+a:hover {
+  color: rgb(255, 253, 126);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+}
+
+#img1 {
+  padding: 20%;
+  margin: 5%;
+  text-align: center;
+  background-image: url(archive1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 110% 100%;
+  filter: grayscale(95%);
+}
+
+#img1:hover {
+  padding: 21%;
+  margin: 5%;
+  text-align: center;
+  background-image: url(archive1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 110% 100%;
+  filter: grayscale(0%);
+}
+
+#img2 {
+  padding: 20%;
+  margin: 5%;
+  text-align: center;
+  background-image: url(archive2.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  filter: grayscale(95%);
+}
+
+#img2:hover {
+  padding: 21%;
+  margin: 5%;
+  text-align: center;
+  background-image: url(archive2.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  filter: grayscale(0%);
+}
